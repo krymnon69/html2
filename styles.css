@@ -1,0 +1,49 @@
+.container {
+  border: 1px solid red;
+  background-color: silver;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.block1 {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid red;
+  background-color: aqua;
+  justify-content: space-around;
+}
+
+.block2 {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid red;
+  background-color: aqua;
+  justify-content: space-around;
+}
+
+.info {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid red;
+  background-color: silver;
+  justify-content: space-around;
+}
+
+.URL {
+  border: 1px solid red;
+  background-color: aquamarine;
+}
+
+.container .image {
+  flex-grow: 0;
+  border: 1px solid red;
+  margin: 1px solid blue;
+  margin: auto;
+  /* position: absolute; */
+  background: red;
+  flex-basis: auto;
+  max-width: 400px;
+  /* width: 50%; */
+  /* height: 50%; */
+}
