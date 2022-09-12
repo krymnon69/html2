@@ -1,49 +1,71 @@
 .container {
+  background: black;
+}
+.container__text-center {
   border: 1px solid red;
   background-color: silver;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  text-align: center;
+  border-radius: 30px;
 }
 
-.block1 {
-  display: flex;
-  flex-wrap: wrap;
+.container__img {
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
   border: 1px solid red;
-  background-color: aqua;
-  justify-content: space-around;
-}
-
-.block2 {
-  display: flex;
-  flex-wrap: wrap;
-  border: 1px solid red;
-  background-color: aqua;
-  justify-content: space-around;
+  background: red;
+  height: 500px;
+  border-radius: 50%;
 }
 
 .info {
+  background: saddlebrown;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
   border: 1px solid red;
   background-color: silver;
-  justify-content: space-around;
+  /* margin: 10px; */
+  border-radius: 40px;
+}
+
+.block1__info {
+  text-align: center;
+  flex-wrap: wrap;
+  background-color: aqua;
+  margin: 10px 0px;
+  width: 50%;
+  border-radius: 25px;
+  min-width: 465px;
+}
+
+.block2__info {
+  text-align: center;
+  background-color: rgb(33, 86, 165);
+  margin: 10px 0px;
+  width: 50%;
+  border-radius: 25px;
+  min-width: 335px;
 }
 
 .URL {
   border: 1px solid red;
   background-color: aquamarine;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 25px;
 }
 
-.container .image {
-  flex-grow: 0;
-  border: 1px solid red;
-  margin: 1px solid blue;
-  margin: auto;
-  /* position: absolute; */
-  background: red;
-  flex-basis: auto;
-  max-width: 400px;
-  /* width: 50%; */
-  /* height: 50%; */
+.URL a {
+  color: black;
+  font-size: larger;
+  text-decoration: none;
+  border: 5px solid black;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  border-radius: 25px;
 }
